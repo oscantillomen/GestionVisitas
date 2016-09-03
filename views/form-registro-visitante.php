@@ -33,7 +33,7 @@
 				</div>			
 				<div class="form-group">
 					<label for="txtCelular" class="sr-only">Celular</label>
-					<input type="text" name="" id="txtCelular" class="form-control" placeholder="Celular">
+					<input type="number" name="" id="txtCelular" class="form-control" placeholder="Celular">
 				</div>
 				<div class="form-group">
 					<label for="txtCorreo" class="sr-only">Correo</label>
@@ -43,7 +43,7 @@
 					<label for="txtPlacaVehiculo" class="sr-only">Placa Vehículo</label>
 					<input type="text" name="" id="txtPlacaVehiculo" class="form-control" placeholder="Número Placa del Vehículo">
 				</div>
-						<input type="button" value="Guardar Visitante" class="btn btn-primary">
+						<input type="button" id="btnGuardarVisitante" value="Guardar Visitante" class="btn btn-primary">
 			</div>
 			
 		</div>

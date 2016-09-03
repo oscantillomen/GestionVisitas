@@ -1,10 +1,11 @@
 <?php  
 
-	require_once('..bd/config.php');
-	require_once('..bd/adodb5/adodb.inc.php');
+	require_once('../db/config.php');
+	require_once('../db/adodb5/adodb.inc.php');
+
 	try 
 	{
-	   $con = ADONewConnection('mysql');
+	   $con = ADONewConnection('mysqli');
 	   $con->debug=false;
 	   $con->PConnect($server,$username,$password,$database);
 	   $con->SetFetchMode(ADODB_FETCH_ASSOC);
@@ -13,7 +14,7 @@
 	   $i=0;
 	   while(!$rs->EOF)
 	   {
-	   	$identificaciones[$i] = array('id'=>$rs->fields['cen_id'],'identificacion'=>$rs->fields['nombre'],'descripcion'=>$rs->fields['descripcion']);
+	   	$identificaciones[$i] = array('id'=>$rs->fields['Id'],'identificacion'=>$rs->fields['Nombre'],'descripcion'=>$rs->fields['Descripcion']);
 	   	$rs->MoveNext();
 	   	$i++;
 	   }
