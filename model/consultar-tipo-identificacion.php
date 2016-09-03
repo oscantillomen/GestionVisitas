@@ -1,7 +1,7 @@
 <?php  
 
-	require_once('..bd/config.php');
-	require_once('..bd/adodb5/adodb.inc.php');
+	require_once('../model/config.php');
+	require_once('../bd/adodb5/adodb.inc.php');
 	try 
 	{
 	   $con = ADONewConnection('mysql');

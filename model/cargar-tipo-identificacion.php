@@ -1,6 +1,6 @@
 <?php  
 
-	require_once('../db/config.php');
+	require_once('../model/config.php');
 	require_once('../db/adodb5/adodb.inc.php');
 
 	try 

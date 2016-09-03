@@ -19,6 +19,12 @@ h1{
     background-size: 100%;
 }
 
+.error{
+    
+    color: color: rgb(171, 39, 59)!important;
+
+}
+
 body {
     padding-top: 100px;
 	padding-top: 20px;

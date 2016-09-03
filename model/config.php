@@ -9,7 +9,9 @@ $database = "gestionvisitas"; //nombre de la base de datos
 $username = "root"; // nombre de usuario con el que se conecta a la base de datos
 $password = ""; // contraseña
 
-$conexion = mysql_connect($server,$username,$password);
+//Conexión
+		/*$conexion = mysql_connect($server,$username,$password);
+		mysql_select_db($database);*/
 
 date_default_timezone_set("America/Bogota");
 
