@@ -1,0 +1,188 @@
+*{margin: 0; padding: 0;}
+
+
+
+th{
+    font-family: inherit;
+    color: #990000;
+}
+.index .pagina{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b0404+51,9b0404+59,a00002+70,a00002+78,a00002+78,a00002+94,a00002+100,cc0000+100,a00002+101&1+0,0.56+71,0.14+99;Red+Flat */
+background: -moz-linear-gradient(left,  rgba(155,4,4,1) 0%, rgba(155,4,4,0.68) 51%, rgba(155,4,4,0.63) 59%, rgba(160,0,2,0.57) 70%, rgba(160,0,2,0.56) 71%, rgba(160,0,2,0.46) 78%, rgba(160,0,2,0.22) 94%, rgba(160,0,2,0.14) 99%, rgba(160,0,2,0.14) 100%, rgba(160,0,2,0.14) 101%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(155,4,4,1) 0%,rgba(155,4,4,0.68) 51%,rgba(155,4,4,0.63) 59%,rgba(160,0,2,0.57) 70%,rgba(160,0,2,0.56) 71%,rgba(160,0,2,0.46) 78%,rgba(160,0,2,0.22) 94%,rgba(160,0,2,0.14) 99%,rgba(160,0,2,0.14) 100%,rgba(160,0,2,0.14) 101%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(155,4,4,1) 0%,rgba(155,4,4,0.68) 51%,rgba(155,4,4,0.63) 59%,rgba(160,0,2,0.57) 70%,rgba(160,0,2,0.56) 71%,rgba(160,0,2,0.46) 78%,rgba(160,0,2,0.22) 94%,rgba(160,0,2,0.14) 99%,rgba(160,0,2,0.14) 100%,rgba(160,0,2,0.14) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b0404', endColorstr='#24a00002',GradientType=1 ); /* IE6-9 */
+
+}
+.index{
+width: 100%;
+ background-image: url("../Imagenes/fondo.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+
+}
+.presentacion{
+    margin-top: 10px;
+   width: 100%;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9b0404+51,9b0404+59,a00002+70,a00002+78,a00002+78,a00002+94,a00002+100,cc0000+100,a00002+101&1+0,0.56+71,0.14+99;Red+Flat */
+background: -moz-linear-gradient(left,  rgba(155,4,4,1) 0%, rgba(155,4,4,0.68) 51%, rgba(155,4,4,0.63) 59%, rgba(160,0,2,0.57) 70%, rgba(160,0,2,0.56) 71%, rgba(160,0,2,0.46) 78%, rgba(160,0,2,0.22) 94%, rgba(160,0,2,0.14) 99%, rgba(160,0,2,0.14) 100%, rgba(160,0,2,0.14) 101%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(155,4,4,1) 0%,rgba(155,4,4,0.68) 51%,rgba(155,4,4,0.63) 59%,rgba(160,0,2,0.57) 70%,rgba(160,0,2,0.56) 71%,rgba(160,0,2,0.46) 78%,rgba(160,0,2,0.22) 94%,rgba(160,0,2,0.14) 99%,rgba(160,0,2,0.14) 100%,rgba(160,0,2,0.14) 101%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(155,4,4,1) 0%,rgba(155,4,4,0.68) 51%,rgba(155,4,4,0.63) 59%,rgba(160,0,2,0.57) 70%,rgba(160,0,2,0.56) 71%,rgba(160,0,2,0.46) 78%,rgba(160,0,2,0.22) 94%,rgba(160,0,2,0.14) 99%,rgba(160,0,2,0.14) 100%,rgba(160,0,2,0.14) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b0404', endColorstr='#24a00002',GradientType=1 ); /* IE6-9 */
+
+}.presentacion p{
+      margin-top: 5px;
+color: white;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3px;
+    
+} 
+
+.pagina{
+  margin:  0 auto;  width: 100%;
+    
+}
+header{
+ border: #F7F4EE 1px hidden; 
+
+}
+header div{
+ width: 100%;
+ text-align: center;
+  border: #F7F4EE 1px hidden; 
+
+
+}
+header .logo{
+
+}
+header table{
+    margin-top: 20px;
+}
+header table td{
+    padding-left: 10px;
+}
+section{
+    text-align: center;
+}
+section img{
+    width: 35%;
+}
+.boton{
+  
+   font-size: 13px;
+  padding: 3px;
+ 
+}.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+    background-color:#990000;
+    color: white;
+    padding: 3px;
+}
+
+/*
+ * Card component
+ */
+.card {
+   
+   
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.25+1,0+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 1%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.25) 1%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.25) 1%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin #inputEmail,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.btn:hover{
+    background-color: #cc0000;
+}
+.forgot-password,.remenber{
+    color: #404040;
+    font-weight: bold;
+    font-size:15px;
+}
+span img{
+    width: 3px;
+    
+}

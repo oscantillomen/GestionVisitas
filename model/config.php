@@ -10,8 +10,13 @@ $username = "root"; // nombre de usuario con el que se conecta a la base de dato
 $password = ""; // contraseña
 
 //Conexión
-		/*$conexion = mysql_connect($server,$username,$password);
-		mysql_select_db($database);*/
+$link = mysqli_connect("localhost", "root", "", "gestionvisitas");
+
+/* verificar la conexión */
+if (mysqli_connect_errno()) {
+    printf("Conexión fallida: %s\n", mysqli_connect_error());
+    exit();
+}
 
 date_default_timezone_set("America/Bogota");
 

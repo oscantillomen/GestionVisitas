@@ -17,6 +17,7 @@
 	   	$identificaciones[$i] = array('id'=>$rs->fields['Id'],'identificacion'=>$rs->fields['Nombre'],'descripcion'=>$rs->fields['Descripcion']);
 	   	$rs->MoveNext();
 	   	$i++;
+                
 	   }
 	   $con->Close();
 	   echo json_encode($identificaciones);
