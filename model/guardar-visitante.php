@@ -1,7 +1,6 @@
 <?php  
 
 	require_once('../model/config.php');
-	/*require_once('sesion.php');*/
 
 	$identificacion 	 = $_POST['identificacion'];
 	$tipo_identificacion = $_POST['tipo_identificacion'];

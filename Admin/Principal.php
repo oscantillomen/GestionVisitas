@@ -4,7 +4,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
    <link rel="stylesheet" href="../Diseño/css/bootstrap.min.css">
    <link rel="stylesheet" href="../Diseño/MiEstilo2.css">
-        <script src="../Diseño/Efectos.js"></script>
       
 
     <script src="../Diseño/jquery-2.2.1.js"></script>

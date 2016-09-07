@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?
+    require_once('../model/config.php');
+?>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
